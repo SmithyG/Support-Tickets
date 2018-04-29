@@ -1,0 +1,2 @@
+1. INSERT INTO Customer VALUES (1,'smithy_g@live.com','George Smith');
+4. SELECT * FROM Ticket INNER JOIN TicketUpdate ON (Ticket.TicketID = TicketUpdate.TicketID);

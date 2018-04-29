@@ -1,0 +1,50 @@
+body{
+    font-family: Verdana, sans-serif;
+}
+
+.formContainer {
+    width: 250px;
+    clear: both;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.formContainer input {
+    width: 100%;
+    clear: both;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkcyan;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

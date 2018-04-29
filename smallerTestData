@@ -1,0 +1,360 @@
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (1,'Harder','HHamilton4@live.cc');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (2,'Braconi','JohanHelbush@telfort.es');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (3,'Harness','Bart.Hancock@aol.no');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (4,'White','S.Barnett1@lycos.us');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (5,'Freed','Fred.Tudisco4@yahoo.com');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (6,'Igolavski','Will.Pearlman@weboffice.dk');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (7,'Gieske','KNobles4@excite.no');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (8,'Framus','WilliamBryant@excite.es');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (9,'Lee','H.Little@telfort.ca');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (10,'Markovi','JPrior@lycos.nl');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (11,'Ray','HBeckbau@telfort.com');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (12,'Pekaban','WMeterson5@aol.nl');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (13,'Crocetti','E.Watson5@live.de');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (14,'Blount','Hank.Royal4@weboffice.com');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (15,'Waldo','MaartenLawton@telfort.no');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (16,'Naley','E.Cramer@yahoo.fr');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (17,'Knight','SigridHerring3@hotmail.net');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (18,'Shapiro','KKeller@telefonica.de');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (19,'Waldo','P.Dean@gmail.fr');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (20,'Poole','DaveBugno@lycos.co.uk');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (21,'McCormick','Rick.Laudanski5@hotmail.cn');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (22,'Arnold','AIgolavski@live.us');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (23,'Toreau','FransDulisse3@aol.be');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (24,'Byrnes','S.Uprovski3@mobileme.no');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (25,'Cohen','Rick.Archer5@telfort.cc');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (26,'Otto','P.Willis1@gmail.cn');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (27,'Phillips','TFrancis@gawab.org');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (28,'Reames','John.Crocetti1@myspace.ca');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (29,'Van Toorenbeek','Bill.Hankins@libero.nl');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (30,'Symms','RSymbouras@yahoo.ca');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (31,'Langham	','MattijsIonescu@kpn.es');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (32,'Toreau','BobMaribarski5@mail.org');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (33,'Ionescu','WilliamFox2@libero.de');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (34,'Green','HankArcher@weboffice.de');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (35,'Clark','JSakurai@mail.com');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (36,'Gua Lima','WilliamDeWald4@yahoo.cn');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (37,'Gunter','FonsKuehn@aol.us');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (38,'Pierce','John.Ward@libero.gov');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (39,'Hoogbandt','Bartvan der Laar@libero.ca');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (40,'Bitmacs','Dick.Phillips@mobileme.us');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (41,'Mcnally','HManson2@telefonica.es');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (42,'Ditmanen','Ton.Moore@web.fr');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (43,'Franklin','Patty.Hummel4@mobileme.gov');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (44,'Lee','Dick.Guyer2@telefonica.nl');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (45,'Blacher','PeterSakurai@aol.es');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (46,'Langham','TreesMorton4@telefonica.com');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (47,'Ecchevarri','J.Kellock@live.de');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (48,'Beckbau','HankDelRosso@excite.fr');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (49,'Freed','Eric.Whitehurst@msn.gov');
+ 
+ 
+INSERT INTO "public"."customer" ("customerid","name","email") VALUES (50,'Deleo','REsperiza@mail.es');
+ 
+
+
+
+ 
+INSERT INTO "public"."product" ("productid","name") VALUES (1,'ORANGES MANDARIN');
+ 
+ 
+INSERT INTO "public"."product" ("productid","name") VALUES (2,'ELBOWS WHOLE WHEAT');
+ 
+ 
+INSERT INTO "public"."product" ("productid","name") VALUES (3,'Liquid Gold Styling Glaze');
+ 
+ 
+INSERT INTO "public"."product" ("productid","name") VALUES (4,'Bright Eye Blend');
+ 
+ 
+INSERT INTO "public"."product" ("productid","name") VALUES (5,'Books');
+ 
+ 
+INSERT INTO "public"."product" ("productid","name") VALUES (6,'TABLECOVER CLOSEOUT');
+ 
+ 
+INSERT INTO "public"."product" ("productid","name") VALUES (7,'Cayenne Plus');
+ 
+ 
+INSERT INTO "public"."product" ("productid","name") VALUES (8,'Liquid Gold Styling Glaze');
+ 
+ 
+INSERT INTO "public"."product" ("productid","name") VALUES (9,'Dreams Re-Conditioner');
+ 
+ 
+INSERT INTO "public"."product" ("productid","name") VALUES (10,'Hybrid Sweet Corn');
+ 
+
+
+
+ 
+INSERT INTO "public"."staff" ("staffid","name") VALUES (1,'Pieter');
+ 
+ 
+INSERT INTO "public"."staff" ("staffid","name") VALUES (2,'Siem');
+ 
+ 
+INSERT INTO "public"."staff" ("staffid","name") VALUES (3,'Ricky');
+ 
+ 
+INSERT INTO "public"."staff" ("staffid","name") VALUES (4,'Krystyna');
+ 
+ 
+INSERT INTO "public"."staff" ("staffid","name") VALUES (5,'Jaclyn');
+ 
+ 
+INSERT INTO "public"."staff" ("staffid","name") VALUES (6,'Lucille');
+ 
+ 
+INSERT INTO "public"."staff" ("staffid","name") VALUES (7,'Steve');
+ 
+ 
+INSERT INTO "public"."staff" ("staffid","name") VALUES (8,'JanCees');
+ 
+ 
+INSERT INTO "public"."staff" ("staffid","name") VALUES (9,'Joop');
+ 
+ 
+INSERT INTO "public"."staff" ("staffid","name") VALUES (10,'Jean');
+ 
+
+
+
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (1,'Description number 9647817','open',2,'06.10.2017 03:12:00',8,5);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (2,'Description number 2179734','open',2,'05.05.2017 10:30:00',36,4);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (3,'Description number 0739603','open',3,'12.05.2017 03:07:00',47,1);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (4,'This is a description 7742979','closed',2,'05.03.2017 01:11:00',21,8);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (5,'Description number 2118408','closed',3,'22.02.2017 06:31:00',48,3);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (6,'Description number 0128505','open',3,'21.07.2017 10:11:00',47,4);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (7,'This is a description 6712149','closed',3,'07.09.2017 05:15:00',7,3);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (8,'This is a description 6653656','open',2,'29.09.2017 01:58:00',3,1);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (9,'This is a description 6687253','open',1,'01.01.2017 08:38:00',12,7);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (10,'Description number 1416291','closed',3,'30.09.2017 05:04:00',10,10);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (11,'This is a description 6139969','closed',2,'07.07.2017 10:18:00',10,3);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (12,'Description number 8710315','open',3,'05.02.2017 07:13:00',15,4);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (13,'This is a description 1593345','closed',2,'05.07.2017 01:36:00',43,6);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (14,'This is a description 1900453','open',1,'19.04.2017 04:56:00',22,1);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (15,'Description number 0877329','open',2,'28.05.2017 10:33:00',7,7);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (16,'This is a description 1964252','open',3,'14.01.2017 09:25:00',34,10);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (17,'Description number 2611905','closed',3,'11.09.2017 02:50:00',1,5);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (18,'Description number 9623610','open',2,'03.06.2017 00:29:00',8,10);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (19,'Description number 8511043','closed',2,'29.08.2017 02:38:00',26,10);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (20,'This is a description 6097338','closed',2,'02.10.2017 05:16:00',4,4);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (21,'This is a description 6662294','closed',3,'09.01.2017 04:15:00',38,4);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (22,'This is a description 9766128','closed',2,'10.04.2017 04:09:00',10,10);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (23,'Description number 4632813','closed',3,'10.12.2017 10:00:00',19,5);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (24,'This is a description 4056240','closed',1,'24.05.2017 09:47:00',8,6);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (25,'This is a description 8998991','closed',2,'30.03.2017 09:22:00',22,3);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (26,'This is a description 7405485','open',1,'18.02.2017 04:34:00',38,7);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (27,'Description number 9671628','open',1,'20.06.2017 02:37:00',48,7);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (28,'This is a description 1172790','open',2,'01.07.2017 01:50:00',16,8);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (29,'Description number 6234661','open',1,'06.08.2017 09:26:00',21,3);
+ 
+ 
+INSERT INTO "public"."ticket" ("ticketid","problem","status","priority","loggedtime","customerid","productid") VALUES (30,'This is a description 4634814','closed',1,'13.02.2017 07:51:00',9,3);
+ 
+
+
+
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (1,'JUST A NOTE','28.03.2018 06:12:00',13,4);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (2,'Must verify this entry.','01.04.2018 08:32:00',13,4);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (3,'We must investigate this.','20.03.2018 01:16:00',13,5);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (4,'Test this.','03.02.2018 00:41:00',22,5);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (5,'All modifications are cancelled','23.02.2018 09:08:00',22,4);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (6,'No longer in use.','16.04.2018 02:10:00',21,4);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (7,'Must send an email.','03.04.2018 10:39:00',18,4);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (8,'Called 26 times.','22.03.2018 04:52:00',25,5);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (9,'Check out their website.','22.04.2018 03:12:00',25,5);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (10,'Missed his call.','12.04.2018 05:00:00',25,5);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (11,'All modifications are cancelled','13.02.2018 03:27:00',17,3);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (12,'JUST A NOTE','07.02.2018 00:32:00',17,3);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (13,'Read this.','03.02.2018 07:13:00',14,3);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (14,'Must verify this entry.','13.02.2018 05:30:00',14,5);
+ 
+ 
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (15,'','15.04.2018 06:25:00',14,5);
+ 
+
+
+

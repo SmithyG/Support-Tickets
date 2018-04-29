@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <title>Product Support Ticket Interface</title>
+</head>
+<body>
+
+<h1>Product Support Ticket Interface</h1>
+
+<!-- Here we define the form that controls the insertion of a new customer -->
+
+<h3>Insert Customer Record</h3>
+<div class="formContainer">
+    <form action="addCustomer" method="post">
+        ID <input type="text" name="id"><br>
+        Name <input type="text" name="name"><br>
+        Email <input type="text" name="email"><br>
+        <input type="submit" value="Add New Customer">
+    </form>
+    <!-- The "error" placeholder is used here to provide a way for errors to be displayed -->
+    <!-- The "msg" placeholder is used to display if a transaction was successful or not  -->
+    {{ msg }}<br>
+    {{ error }}
+</div>
+
+<!-- Here we define the form that allows for input in order to provide values to insert a new support ticket -->
+
+<h3>Insert Support Ticket</h3>
+<div class="formContainer">
+    <form action="addTicket" method="post">
+        Ticket ID <input type="text" name="ticketid"><br>
+        Problem <input type="text" name="problem"><br>
+    <!-- We use a select element here and populate the drop down menu with customer IDs -->
+        Customer ID <select name="customerid">
+    <!-- This is made possible by the use of two for loops to iterate over customerList object fetched by python -->
+        {% for row in customerList %}
+            {% for item in row %}
+                <option>{{ item }}</option>
+            {% endfor %}
+        {% endfor %}
+    </select><br>
+    <!-- We also do the same for product IDs using the same method -->
+        Product ID <select name="productid">
+        {% for row in productList %}
+            {% for item in row %}
+                <option>{{ item }}</option>
+            {% endfor %}
+        {% endfor %}
+    </select><br>
+    <!-- The priority field has a drop down menu with text that equates to a numerical value -->
+    <!-- This makes it easier for the user to understand how priority ranking works -->
+        Priority <select name="priority">
+        <option value="1">High Priority</option>
+        <option value="2">Medium Priority</option>
+        <option value="3">Low Priority</option>
+    </select><br>
+        <input type="submit" value="Add New Ticket">
+    </form>
+</div>
+
+<!-- Below we have the form the controls the insertion of new ticket updates -->
+
+<h3>Insert Ticket Update</h3>
+<div class="formContainer">
+    <form action="addUpdate" method="post">
+        Update ID <input type="text" name="updateid"><br>
+        Message <input type="text" name="message"><br>
+        Ticket ID <select name="ticketid">
+        {% for row in openTicketList %}
+            {% for item in row %}
+                <option>{{ item }}</option>
+            {% endfor %}
+        {% endfor %}
+    </select><br>
+        Staff ID <input type="text" name="staffid"><br>
+        <input type="submit" value="Add Ticket Update">
+    </form>
+
+    {{ msg3 }}<br>
+    {{ error3 }}
+</div>
+
+<!-- The form the directs the user to another web page with all outstanding support tickets is defined here -->
+
+<h3>Outstanding Support Tickets</h3>
+<div class="formContainer">
+    <form action="listOutstandingTickets" method="get">
+        <!-- When the submit button is clicked the listOutstandingTickets function is called -->
+        <input type="submit" value="Display Outstanding Tickets">
+    </form>
+</div>
+
+<!-- The form that allows for a support ticket to be closed when given a ticket ID is defined below -->
+
+<h3>Close A Support Ticket</h3>
+<div class="formContainer">
+    <form action="closeTicket" method="post">
+    <!-- Note that using this method of populating the options menu from the database means we can prevent unwanted-->
+    <!-- values as we can use the query to prevent certain options, in this case only open tickets are displayed.-->
+        Ticket ID <select name="ticketid">
+        {% for row in openTicketList %}
+            {% for item in row %}
+                <option>{{ item }}</option>
+            {% endfor %}
+        {% endfor %}
+    </select><br>
+        <input type="submit" value="Close Ticket">
+    </form>
+    {{ msg4 }}<br>
+    {{ error5 }}
+</div>
+
+<!-- The form that directs the user to a web page displaying all updates on a ticket, given an ID, is defined below -->
+
+<h3>Ticket Updates</h3>
+<div class="formContainer">
+    <form action="listUpdates" method="post">
+        Ticket ID <select name="ticketid">
+        {% for row in ticketList %}
+            {% for item in row %}
+                <option>{{ item }}</option>
+            {% endfor %}
+        {% endfor %}
+    </select><br>
+        <input type="submit" value="List Updates">
+    </form>
+</div>
+
+<!-- Below is the form that directs the user to a web page that displays details about all closed tickets-->
+
+<h3>Closed Tickets Report</h3>
+<div class="formContainer">
+    <form action="listClosedTickets" method="get">
+        <input type="submit" value="Generate Report">
+    </form>
+</div>
+
+<!-- Below is the form that allows the user to delete a customer given a customerID -->
+
+<h3>Delete A Customer</h3>
+<div class="formContainer">
+    <form action="deleteCustomer" method="post">
+        Customer ID <select name="customerid">
+        {% for row in customerList %}
+            {% for item in row %}
+                <option>{{ item }}</option>
+            {% endfor %}
+        {% endfor %}
+    </select><br>
+        <input type="submit" value="Delete Customer">
+    </form>
+    {{ msg5 }}<br>
+    {{ error8 }}
+</div>
+
+</body>
+</html>

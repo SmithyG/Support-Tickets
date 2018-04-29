@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <title>Product Support Ticket Interface</title>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+    </ul>
+</nav>
+
+<h1>Product Support Ticket Interface</h1>
+
+<h3>Closed Tickets Report</h3>
+<!-- Table to display data returned from subsequent query-->
+<table>
+    <tr>
+        <th>Ticket ID</th>
+        <th>Status</th>
+        <th>Number Of Updates</th>
+        <th>First Response Time</th>
+        <th>Total Time Elapsed</th>
+    </tr>
+    {% for row in closedtickets %}
+        <tr>
+            {% for item in row %}
+                <td>
+                    {{ item }}
+                </td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+</table>
+{{ error7 }}
+
+</body>
+</html>
