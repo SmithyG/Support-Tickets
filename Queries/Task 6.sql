@@ -6,5 +6,5 @@ SELECT
 FROM ticket t
   FULL OUTER JOIN ticketupdate tU ON t.ticketid = tU.ticketid
   FULL OUTER JOIN staff s ON tU.staffid = s.staffid
-WHERE (t.ticketid = 101)
+WHERE (t.ticketid = 31)
 ORDER BY t.ticketid, tU.updatetime;

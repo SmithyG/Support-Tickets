@@ -1,2 +1,2 @@
 DELETE FROM customer
-WHERE customerid = 102;
+WHERE customerid = 51;
