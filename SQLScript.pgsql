@@ -41,3 +41,14 @@ CREATE TABLE TicketUpdate
 );
 
 CREATE INDEX ticket_open_index ON ticket (Status);
+
+CREATE VIEW Closed_Ticket_Report AS SELECT
+  t.ticketid,
+  t.status,
+  COUNT(tU.ticketid)                AS Number_Of_Updates,
+  MIN(tU.updatetime) - t.loggedtime AS First_Response_Time,
+  MAX(tU.updatetime) - t.loggedtime AS Total_Time_Elapsed
+FROM ticketupdate tU FULL OUTER JOIN ticket t on tU.ticketid = t.ticketid
+WHERE t.status = 'closed'
+GROUP BY tU.ticketid, t.ticketid, t.loggedtime
+ORDER BY t.ticketid;

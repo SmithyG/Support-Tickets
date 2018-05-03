@@ -353,7 +353,7 @@ INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ti
 INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (14,'Must verify this entry.','13.02.2018 05:30:00',14,5);
  
  
-INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (15,'','15.04.2018 06:25:00',14,5);
+INSERT INTO "public"."ticketupdate" ("ticketupdateid","message","updatetime","ticketid","staffid") VALUES (15,'Check this.','15.04.2018 06:25:00',14,5);
  
 
 
