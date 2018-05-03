@@ -1,3 +1,3 @@
 UPDATE ticket
 SET status = 'closed'
-WHERE (ticketid = 51);
+WHERE (ticketid = 31);
