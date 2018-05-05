@@ -42,6 +42,7 @@ CREATE TABLE TicketUpdate
 
 CREATE INDEX ticket_status_index ON ticket (Status);
 
+-- This VIEW is used for task 7
 CREATE VIEW Closed_Ticket_Report AS SELECT
   t.ticketid,
   t.status,
@@ -53,6 +54,7 @@ WHERE t.status = 'closed'
 GROUP BY tU.ticketid, t.ticketid, t.loggedtime
 ORDER BY t.ticketid;
 
+-- This function and complementing trigger raises an exception if a user tries to close an already closed ticket.
 CREATE OR REPLACE FUNCTION check_status_function()
 	RETURNS TRIGGER AS $trigger$
 BEGIN
