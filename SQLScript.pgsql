@@ -40,7 +40,7 @@ CREATE TABLE TicketUpdate
 	StaffID			INTEGER REFERENCES Staff (StaffID) ON DELETE RESTRICT ON UPDATE RESTRICT
 );
 
-CREATE INDEX ticket_open_index ON ticket (Status);
+CREATE INDEX ticket_status_index ON ticket (Status);
 
 CREATE VIEW Closed_Ticket_Report AS SELECT
   t.ticketid,
@@ -52,3 +52,17 @@ FROM ticketupdate tU FULL OUTER JOIN ticket t on tU.ticketid = t.ticketid
 WHERE t.status = 'closed'
 GROUP BY tU.ticketid, t.ticketid, t.loggedtime
 ORDER BY t.ticketid;
+
+CREATE OR REPLACE FUNCTION check_status_function()
+	RETURNS TRIGGER AS $trigger$
+BEGIN
+RAISE EXCEPTION 'Ticket is already closed';
+END
+$trigger$
+LANGUAGE plpgsql;
+
+CREATE TRIGGER check_status_trigger
+	BEFORE UPDATE ON Ticket
+	FOR EACH ROW
+  WHEN (OLD.Status = 'closed')
+EXECUTE PROCEDURE check_status_function();
